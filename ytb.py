@@ -28,6 +28,6 @@ for link in temp:
         l = re.sub(r'%26',"&",l)
         links.append(l)
 
-driver = webdriver.Chrome("Z:/Downloads/chromedriver_win32 (3)/chromedriver.exe")
+driver = webdriver.Chrome("Z:/Downloads/chromedriver_win32 (3)/chromedriver.exe")  #directory should be changed based on where the driver file was downloaded
 driver.get(links[1])
 time.sleep(10000)
